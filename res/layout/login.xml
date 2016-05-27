@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/popuplogin" >
+<TextView    
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"   
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:textColor="#ff0000"      
+    android:gravity="left"  
+    android:text="用户名:"  
+    />  
+<EditText    
+    android:id="@+id/txt_username"  
+    android:layout_width="fill_parent"   
+    android:layout_height="wrap_content"   
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:gravity="fill_horizontal"
+    />  
+<TextView    
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"   
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:textColor="#ff0000"      
+    android:gravity="left"  
+    android:text="密码:"  
+    />  
+<EditText    
+    android:id="@+id/txt_password"  
+    android:layout_width="fill_parent"   
+    android:layout_height="wrap_content"   
+    android:layout_marginLeft="20dip"  
+    android:layout_marginRight="20dip"  
+    android:gravity="fill_horizontal"  
+    android:autoText="false"  
+    android:password="true"  
+    android:capitalize="none"
+    />    
+
+</LinearLayout>
