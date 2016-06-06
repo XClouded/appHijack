@@ -9,7 +9,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
-//referrence https://github.com/jaredrummler/AndroidProcesses
+
 public class GetRunningTasksService extends Service{
 	private String[] TARGET_APPS = new String[]{"com.achievo.vipshop","com.jingdong.app.mall","com.meilishuo","com.dangdang.buy2","com.mogujie"};
 	@Override
